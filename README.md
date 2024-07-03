@@ -15,7 +15,7 @@ Step 5: Load everything and start the fine-tuning process
   1. First of all, we want to load the dataset we defined. Here, our dataset is already preprocessed but, usually, this is where you would reformat the prompt, filter out bad text, combine      multiple datasets, etc.
   2. Then, we’re configuring bitsandbytes for 4-bit quantization.
   3. Next, we're loading the Llama 2 model in 4-bit precision on a GPU with the corresponding tokenizer.
-  4. Finally, we're loading configurations for QLoRA, regular training parameters, and passing everything to the SFTTrainer. The training can finally start!
+  4. Finally, we're loading configurations for QLoRA, regular training parameters, and passing everything to the SFTTrainer. The training has started.
 
 Step 6: Save the model and Use the text generation pipeline to ask questions.
 
