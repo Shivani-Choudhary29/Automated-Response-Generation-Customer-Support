@@ -18,3 +18,7 @@ Step 5: Load everything and start the fine-tuning process
   4. Finally, we're loading configurations for QLoRA, regular training parameters, and passing everything to the SFTTrainer. The training can finally start!
 
 Step 6: Save the model and Use the text generation pipeline to ask questions.
+
+
+Note: You can change the learning hyperparamter as per your system speed, If you have sufficient GPU access, you can train the model better.
+
