@@ -12,7 +12,7 @@ Step 4: Fine Tune:
 2. Train it on the dataset ("Kaludi/Customer-Support-Responses"), which will produce our fine-tuned model Llama-2-7b-chat-finetune
 
 Step 5: Load everything and start the fine-tuning process
-  1. First of all, we want to load the dataset we defined. Here, our dataset is already preprocessed but, usually, this is where you would reformat the prompt, filter out bad text, combine      multiple datasets, etc.
+  1. First of all, we want to load the dataset we defined. This is where I reformat the prompt, filter out bad text, combine dataset as required.
   2. Then, we’re configuring bitsandbytes for 4-bit quantization.
   3. Next, we're loading the Llama 2 model in 4-bit precision on a GPU with the corresponding tokenizer.
   4. Finally, we're loading configurations for QLoRA, regular training parameters, and passing everything to the SFTTrainer. The training has started.
